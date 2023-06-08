@@ -8,6 +8,10 @@ The goal of this project is to evaluate the practicality of a KNN and a nueral n
 
 Code from https://www.kaggle.com/code/arjunsingh88/keystroke-dynamics-with-random-forest was used to help create several visualizations.
 Code from https://www.kaggle.com/code/arjunsingh88/keystroke-dynamics-with-random-forest was used for the basis of the Binning KNN algorithm.
+The libraries the KNN code uses is scikit learn for the KNN model, and numpy and pandas for the tables and data manipulation.
+The visualization code mostly uses the matplotlib in combination with pandas.
+The Nueral Network uses the torch library to build the Nueral Network.
+
 
 This project is made of three different ipynb notebooks that can all be run on google colab. All you need to do is run them and the results we talk about within our paper will be reproduced.
 Running the system will train and test the models automatically. There is really no user input so it is that simple. One thing we may want to implement in the future is the ability to have someone add themselves as a user to the training set. Then we could allow users to type a password and test on that. However, that is outside of the scope of the current project. Just running the notebooks is all we currently can do.
